@@ -1,0 +1,136 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 1rem 10%;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    font-size: 18px;
+}
+.description{
+    display:flex;
+    flex:1 2 auto;
+    gap: 80px;
+    padding: 140px 120px;
+    box-sizing: border-box;
+}
+.title{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1;
+}
+.title p{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bolder;
+    padding: 0;
+    margin: 0;
+}
+.title div{
+    font-size: 18px;
+    color:#F9FAF8
+}
+.headings{
+    padding: 0px 70px 70px 70px;
+    background-color:#1F2937;
+    margin: 0;
+    color: #F9FAF8;
+}
+.title button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 4px 20px;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+.description img{
+    max-height: 300px;
+}
+
+.info{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+.text img{
+    border: 2px solid #3882F6;
+    border-radius: 40px;
+    max-width: 200px;
+}
+.quote{
+    padding: 5rem 15%;
+    background-color: #E5E7EB;
+    box-sizing: border-box;
+}
+.snippet{
+    display: flex;
+    padding: 60px;
+    margin: 5rem 15%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    gap: 20px;
+}
+.snippet button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: #F9FAF8;
+}
+.call{
+    font-weight: 600;
+}
+.texts{
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+.person{
+    font-weight: 600;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+}
